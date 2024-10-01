@@ -1,0 +1,97 @@
+/* General body styling */
+body {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container to center the form */
+.container {
+  background-color: #2b2b2b;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Heading styling */
+h1 {
+  color: #ffcc00;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #ffcc00;
+  text-align: left;
+}
+
+/* Input field styling */
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #333;
+  color: #f0f0f0;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00;
+  color: #1e1e1e;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effects */
+button:hover {
+  background-color: #ffaa00;
+}
+
+/* Styling the prediction result */
+h2 {
+  margin-top: 20px;
+  color: #00ff99;
+  font-size: 20px;
+}
+
+/* Input focus state */
+input[type="number"]:focus {
+  outline: none;
+  border-color: #ffaa00;
+}
+
+/* Adding some spacing between form elements */
+form {
+  margin-bottom: 20px;
+}
+
+/* Reset button styles */
+button[type="reset"] {
+  background-color: #ff5555;
+}
+
+button[type="reset"]:hover {
+  background-color: #ff3333;
+}
